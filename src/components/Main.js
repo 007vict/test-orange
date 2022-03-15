@@ -1,9 +1,10 @@
 import React from 'react'
+import classes from '../css/Main.module.css'
 
 export default function Main() {
   return (
-    <div className='Main'>
-     <h1>Main</h1>
+    <div className={classes.main}>
+     <h1>Main page</h1>
     </div>
   )
 }
