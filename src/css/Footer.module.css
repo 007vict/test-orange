@@ -1,0 +1,72 @@
+.footer {
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+h6 {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 36px;
+}
+
+.clutch {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 45px;
+}
+
+.logo_wrapper {
+  display: block;
+  width: 82px;
+}
+
+.logo_text {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.logotype {
+  background-image: url('../css/images/logotype.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  display: block;
+  height: 35px;
+  color: white;
+}
+
+.cont_stars {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fivestars {
+  width: 95px;
+  display: inline-block;
+	font-size: 0;
+}
+
+.fivestars span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: red;
+}
+.fivestars > span:before {
+	content: '★';
+}
+.fivestars > span.active {
+	color: red;
+}
+
+.reviews_count a{
+  color: white;
+  text-decoration: none;
+}
+
