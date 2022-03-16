@@ -3,6 +3,7 @@ import Button from '../components/core/Button';
 import classes from '../css/Home.module.css'
 import cont from "../css/Container.module.css"
 import logo from '../css/images/top-30.png'
+import promo from "../css/images/promo.png"
 
 export default function Home() {
   return (
@@ -29,9 +30,10 @@ export default function Home() {
               Clutch / June, 2021
             </span>
           </div>
-
-          <Button/>
-
+          <Button />
+        </div>
+        <div className={classes.img_promo}>
+          <img src={promo} alt="promo" />
         </div>
       </div>
     </section>

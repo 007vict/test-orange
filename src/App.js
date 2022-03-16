@@ -1,10 +1,11 @@
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
+import classes from "./css/index.module.css"
 
 function App() {
   return (
-    <div className="App">
+    <div className={classes.App}>
       <Header />
       <Main/>
       <Footer />
