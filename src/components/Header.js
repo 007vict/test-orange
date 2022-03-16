@@ -6,19 +6,19 @@ function Header() {
   return (
     <header className={classes.header}>
       <div className={container.container}>
-        <a href='#' className={classes.logo}></a>
+        <a href='/home' className={classes.logo}></a>
         <nav className={classes.nav}>
           <div className={classes.link}>
-            <a href="#">Home</a>
+            <a href="/home">Home</a>
           </div>
           <div className={classes.link}>
-            <a href="#">Services</a>
+            <a href="/services">Services</a>
           </div>
           <div className={classes.link}>
-            <a href="#">About</a>
+            <a href="/about">About</a>
           </div>
           <div className={classes.link}>
-            <a href="#">Contact</a>
+            <a href="/contact">Contact</a>
           </div>
         </nav>
       </div>

@@ -1,0 +1,45 @@
+section .hero {
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 570px;
+  height: 530px;
+}
+
+.desc > h1 {
+  font-size: 60px;
+  max-width: 60%;
+  font-weight: 700;
+  line-height: 110%;
+  color: var(--black);
+}
+
+.desc > p {
+  max-width: 90%;
+  font-size: 19px;
+  margin-top: 36px;
+  color: var(--black);
+}
+
+.logo_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo_top > .top30 {
+  height: 43px;
+  width: 112px;
+}
+
+.logo_top > span {
+  margin-left: 20px;
+}
+
+.logo_top > span > strong {
+  color: var(--black);
+}
