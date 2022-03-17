@@ -120,6 +120,11 @@ h2.pretitle::after {
   border-radius: 6px;
 }
 
+.item > p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
 .enterprise > .item > div {
   position: relative;
   display: flex;

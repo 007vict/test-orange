@@ -65,7 +65,7 @@ export default function Home() {
             </div>
 
             <div className={classes.item}>
-              <p>Enterprise</p>
+              <p>Logistics</p>
               <div>
                 <img src={nornikel} alt="nornikel" />
                 <img src={gazp} alt="gazprom" />
@@ -73,7 +73,7 @@ export default function Home() {
             </div>
 
             <div className={classes.item}>
-              <p>Enterprise</p>
+              <p>E-Commerce And Retail</p>
               <div>
                 <img src={nornikel} alt="nornikel" />
                 <img src={gazp} alt="gazprom" />
@@ -81,7 +81,7 @@ export default function Home() {
             </div>
 
             <div className={classes.item}>
-              <p>Enterprise</p>
+              <p>Smart Devices</p>
               <div>
                 <img src={nornikel} alt="nornikel" />
                 <img src={gazp} alt="gazprom" />
@@ -89,7 +89,7 @@ export default function Home() {
             </div>
 
             <div className={classes.item}>
-              <p>Enterprise</p>
+              <p>Banks And Finance</p>
               <div>
                 <img src={nornikel} alt="nornikel" />
                 <img src={gazp} alt="gazprom" />
@@ -97,7 +97,7 @@ export default function Home() {
             </div>
 
             <div className={classes.item}>
-              <p>Enterprise</p>
+              <p>Medicine And Healthcare</p>
               <div>
                 <img src={nornikel} alt="nornikel" />
                 <img src={gazp} alt="gazprom" />
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
 
             <div className={classes.item}>
-              <p>Enterprise</p>
+              <p>Entertainment</p>
               <div>
                 <img src={nornikel} alt="nornikel" />
                 <img src={gazp} alt="gazprom" />
@@ -113,7 +113,7 @@ export default function Home() {
             </div>
 
             <div className={classes.item}>
-              <p>Enterprise</p>
+              <p>HoReCa</p>
               <div>
                 <img src={nornikel} alt="nornikel" />
                 <img src={gazp} alt="gazprom" />
