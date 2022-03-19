@@ -8,10 +8,10 @@ function Header() {
   return (
         <header className={classes.header}>
           <div className={container.container}>
-            <Link to="/home" className={classes.logo}></Link>
+            <Link to="/" className={classes.logo}></Link>
             <nav className={classes.nav}>
               <div className={classes.link}>
-                <Link to="/home">Home</Link>
+                <Link to="/">Home</Link>
               </div>
               <div className={classes.link}>
                 <Link to="/services">Services</Link>

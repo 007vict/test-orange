@@ -1,15 +1,15 @@
 import React from 'react'
 import Button from '../components/core/Button'
+import Itemhome from "../pages/Itemhome"
 import classes from '../css/Home.module.css'
 import cont from "../css/Container.module.css"
 import logo from '../css/images/top-30.png'
 import promo from "../css/images/promo.png"
-import gazp from '../css/images/gazpr-en.png';
-import nornikel from '../css/images/nornickel-en.svg';
-
+import { useSelector } from 'react-redux'
 
 
 export default function Home() {
+  const Items = useSelector(state => state.Home);
   return (
     <>
       <section className={classes.hero}>
@@ -56,72 +56,14 @@ export default function Home() {
           </div>
 
           <div className={classes.enterprise}>
-            <div className={classes.item}>
-              <p>Enterprise</p>
-              <div>
-                <img src={nornikel} alt="nornikel" />
-                <img src={gazp} alt="gazprom" />
-              </div>
-            </div>
-
-            <div className={classes.item}>
-              <p>Logistics</p>
-              <div>
-                <img src={nornikel} alt="nornikel" />
-                <img src={gazp} alt="gazprom" />
-              </div>
-            </div>
-
-            <div className={classes.item}>
-              <p>E-Commerce And Retail</p>
-              <div>
-                <img src={nornikel} alt="nornikel" />
-                <img src={gazp} alt="gazprom" />
-              </div>
-            </div>
-
-            <div className={classes.item}>
-              <p>Smart Devices</p>
-              <div>
-                <img src={nornikel} alt="nornikel" />
-                <img src={gazp} alt="gazprom" />
-              </div>
-            </div>
-
-            <div className={classes.item}>
-              <p>Banks And Finance</p>
-              <div>
-                <img src={nornikel} alt="nornikel" />
-                <img src={gazp} alt="gazprom" />
-              </div>
-            </div>
-
-            <div className={classes.item}>
-              <p>Medicine And Healthcare</p>
-              <div>
-                <img src={nornikel} alt="nornikel" />
-                <img src={gazp} alt="gazprom" />
-              </div>
-            </div>
-
-            <div className={classes.item}>
-              <p>Entertainment</p>
-              <div>
-                <img src={nornikel} alt="nornikel" />
-                <img src={gazp} alt="gazprom" />
-              </div>
-            </div>
-
-            <div className={classes.item}>
-              <p>HoReCa</p>
-              <div>
-                <img src={nornikel} alt="nornikel" />
-                <img src={gazp} alt="gazprom" />
-              </div>
-            </div>
+           { Items.map(item => <Itemhome name = {item.name}
+                                          img = {item.img}
+                                          key = {item.id} />) }
           </div>
+
         </div>
       </section>
     </>
   );
 }
+

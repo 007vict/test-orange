@@ -19,13 +19,13 @@ export default function Footer() {
           </div>
           <div className={classes.cont_stars}>
             <div className={classes.fivestars}>
-              <span class="active"></span>
-              <span class="active"></span>
-              <span class="active"></span>
+              <span className="active"></span>
+              <span className="active"></span>
+              <span className="active"></span>
               <span></span>
               <span></span>
             </div>
-            <span class={classes.reviews_count}>
+            <span className={classes.reviews_count}>
               <a href="https://clutch.co/profile/tapston?utm_source=widget&amp;utm_medium=2&amp;utm_campaign=widget&amp;utm_content=num_reviews#reviews">
                 21 reviews
               </a>

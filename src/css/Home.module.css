@@ -107,33 +107,3 @@ h2.pretitle::after {
   flex-wrap: wrap;
   gap: 12px;
 }
-
-.item {
-  position: relative;
-  width: calc(100% / 4 - 15px);
-  height: 144px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #ffffff;
-  padding: 24px;
-  border-radius: 6px;
-}
-
-.item > p {
-  font-weight: 400;
-  font-size: 20px;
-}
-
-.enterprise > .item > div {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-}
-
-.enterprise > .item > div > img {
-  position: relative;
-  height: 20px;
-  margin-right: 12px;
-  margin-top: 12px;
-}

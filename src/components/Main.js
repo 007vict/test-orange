@@ -7,7 +7,7 @@ export default function Main() {
   return (
     <div className={classes.main}>
         <Routes>
-          <Route path="/home" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
         </Routes>
     </div>
   );
