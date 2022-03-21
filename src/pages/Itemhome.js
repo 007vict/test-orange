@@ -7,7 +7,7 @@ export default function Itemhome(props) {
       <p>{props.name}</p>
       <div>
         {props.img.map((img) => (
-          <img src={img} alt={img} key={props.id}/>
+          <img src={img} alt={img} key={img}/>
         ))}
       </div>
     </div>

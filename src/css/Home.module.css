@@ -72,7 +72,8 @@
   padding: 72px 0;
 }
 
-h2.pretitle {
+h2.pretitle,
+h3.pretitle {
   position: relative;
   display: inline-block;
   font-size: 48px;
@@ -80,7 +81,8 @@ h2.pretitle {
   margin-bottom: 48px;
 }
 
-h2.pretitle::after {
+h2.pretitle::after,
+h3.pretitle::after {
   content: '';
   position: absolute;
   bottom: -8px;
@@ -100,10 +102,65 @@ h2.pretitle::after {
 }
 
 .enterprise {
-  width: 100%;
   position: relative;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 12px;
+}
+
+/* section Solutions */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` */
+
+.solutions {
+  padding: 72px 0;
+  max-width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #ffffff 96%, #f1f5f7 100%);
+}
+
+.h4_desc {
+  width: 100%;
+  border-bottom: 1px solid #e3ebed;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.h4_desc > h4 {
+  font-size: 21px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.h4_desc > p {
+  font-size: 18px;
+}
+
+.banking {
+  border-bottom: none;
+  padding-bottom: 12px;
+}
+
+.banking > h3 {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+/* section contact */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.contact {
+  padding: 72px 0;
+  border-top: 1px solid #e4e4e4;
+}
+
+.contact .h4_desc > p {
+  margin: 0 0 10px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  font-weight: normal;
 }

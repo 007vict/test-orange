@@ -4,7 +4,7 @@ const reducerHome = (state = initialState, action) => {
   console.log('reducerHome', action);
   switch (action.type) {
     case "LIST_ITEMS":
-      return { ...state, Home: [...state.Home, action.payload] }
+      return { ...state, Home: [...state.Home, action.payload]}
     default:
       console.log('default')
       return state;

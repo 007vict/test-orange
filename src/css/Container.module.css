@@ -9,6 +9,12 @@
   align-items: center;
 }
 
-.container.technolog {
+.container.column {
   flex-direction: column;
+  align-items: flex-start;
 }
+
+/* .container.solutions {
+  flex-direction: column;
+  align-items: flex-start;
+} */
