@@ -1,5 +1,5 @@
 const initialState = {
-  Home: [
+  Items: [
     {
       name: 'Enterprise',
       img: ['images/gazpr-en.png',

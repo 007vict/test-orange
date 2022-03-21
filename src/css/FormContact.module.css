@@ -1,0 +1,56 @@
+.formContact {
+  position: relative;
+  width: 100%;
+}
+
+.formContact > form > .formIn {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-bottom: 5px;
+}
+
+.formContact > form > .formIn > div{
+  position: relative;
+  width: calc(100% / 2 - 5px);
+}
+
+.formContact > form > .formIn > div > input,
+.formContact > form > .formIn > .selectForm > select,
+.formContact > form > div > .textarea {
+  position: relative;
+  width: 100%;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  padding: 0 10px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.formContact > form > div > .textarea {
+  position: relative;
+  min-height: 124px;
+  max-height: 400px;
+  max-width: 100%;
+}
+
+.formContact > form > div > .textarea ,
+.formContact > form > div > errors,
+.formContact > form > .formIn > .selectForm {
+  width: 100%;
+}
+
+.formContact > form > div > button {
+  position: relative;
+  width: 100%;
+  margin-top: 24px;
+  padding: 12px;
+  background: var(--black);
+  color: #e4e4e4;
+  border-radius: 8px;
+  border: 1px solid #e4e4e4;
+  font-size: 18px;
+  opacity: .65;
+}

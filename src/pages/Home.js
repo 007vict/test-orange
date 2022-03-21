@@ -6,10 +6,11 @@ import cont from "../css/Container.module.css"
 import logo from '../css/images/top-30.png'
 import promo from "../css/images/promo.png"
 import { useSelector } from 'react-redux'
+import FormContact from '../components/core/FormContact'
 
 
 export default function Home() {
-  const Items = useSelector(state => state.Home);
+  const Items = useSelector(state => state.Home.Items);
   return (
     <>
       <section className={classes.hero}>
@@ -165,6 +166,8 @@ export default function Home() {
           </div>
 
           <h2 className={classes.pretitle}>Contact Us</h2>
+
+          <FormContact />
 
         </div>
       </section>
