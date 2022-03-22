@@ -1,6 +1,9 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
+import { useStore, useDispatch } from 'react-redux';
 import classes from "../../css/FormContact.module.css"
+import { addDataForm } from '../../store/reducers/reducerContact';
+
 
 export default function FormContact() {
   const {
@@ -9,9 +12,13 @@ export default function FormContact() {
     formState: { errors },
     pattern,
     reset
-  } = useForm({mode: 'onSubmit'});
+  } = useForm({mode: 'onSubmit'})
 
-  const onSubmit = data => console.log(`Your data ${JSON.stringify(data)}`, reset())
+  const dispatch = useDispatch()
+  const store = useStore().getState()
+  console.log('data from contact form', store.Form.mail);
+
+  const onSubmit = data => (dispatch(addDataForm(data)), reset())
 
   return (
     <div className={classes.formContact}>
@@ -91,5 +98,5 @@ export default function FormContact() {
         </div>
       </form>
     </div>
-  );
+  )
 }

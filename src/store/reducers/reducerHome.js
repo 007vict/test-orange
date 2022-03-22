@@ -5,8 +5,7 @@ const reducerHome = (state = initialState, action) => {
     case "LIST_ITEMS":
       return { ...state, Items: [...state.Items, action.payload]}
     default:
-      console.log('default')
-      return state;
+            return state;
   }
 }
 

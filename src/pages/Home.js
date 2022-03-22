@@ -10,7 +10,7 @@ import FormContact from '../components/core/FormContact'
 
 
 export default function Home() {
-  const Items = useSelector(state => state.Home.Items);
+  const Items = useSelector(state => state.Home.Items)
   return (
     <>
       <section className={classes.hero}>
