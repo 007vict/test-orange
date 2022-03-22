@@ -15,7 +15,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 530px;
+  min-height: 530px;
+  padding-bottom: 10px;
 }
 
 .desc > h1 {
