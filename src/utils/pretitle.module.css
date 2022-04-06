@@ -1,4 +1,5 @@
-h2.pretitle::after {
+h2.pretitle::after,
+h3.pretitle::after {
   content: '';
   position: absolute;
   bottom: -8px;

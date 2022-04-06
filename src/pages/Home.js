@@ -1,12 +1,12 @@
 import React from 'react'
+import { useSelector } from 'react-redux';
 import Button from '../components/core/Button'
+import Contact from '../pages/Contact';
 import Itemhome from "../pages/Itemhome"
 import classes from '../css/Home.module.css'
 import cont from "../css/Container.module.css"
 import logo from '../css/images/top-30.png'
 import promo from "../css/images/promo.png"
-import { useSelector } from 'react-redux'
-import FormContact from '../components/core/FormContact'
 
 
 export default function Home() {
@@ -148,29 +148,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={classes.contact}>
-        <div className={`${cont.container} ${cont.column}`}>
-
-          <div className={classes.h4_desc}>
-            <h4>How do we get started?</h4>
-            <p>
-              If you need software for your business, please get in touch with us. We are happy to
-              discuss your ideas, understand your goals, and develop software to move your business
-              ahead.
-            </p>
-            <p>
-              <strong>
-                Get the commercial proposal within 24 hours. Start your project within 7 days
-              </strong>
-            </p>
-          </div>
-
-          <h2 className={classes.pretitle}>Contact Us</h2>
-
-          <FormContact />
-
-        </div>
-      </section>
+          <Contact />
     </>
   );
 }

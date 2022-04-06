@@ -3,6 +3,29 @@
   width: 100%;
 }
 
+.formContact > h2.pretitle {
+  position: relative;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+
+.formContact > h2.pretitle::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 1px;
+  width: 50%;
+  height: 2px;
+  transition: 0.2s;
+  background: linear-gradient(45deg, #250d44, #0e5198, #8aa9d6);
+  border-radius: 1px;
+}
+
+
+
+
 .formContact > form > .formIn {
   position: relative;
   display: flex;

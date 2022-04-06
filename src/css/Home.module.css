@@ -1,5 +1,3 @@
-@import '../utils/pretitle.module.css';
-
 /* Home */
 
 /* Section Hero,promo */
@@ -147,21 +145,4 @@ h3.pretitle::after {
   margin-top: 12px;
   font-weight: 400;
   font-size: 28px;
-}
-
-/* section contact */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-.contact {
-  padding: 72px 0;
-  border-top: 1px solid #e4e4e4;
-}
-
-.contact .h4_desc > p {
-  margin: 0 0 10px;
-}
-
-.contact h2 {
-  font-size: 36px;
-  font-weight: normal;
 }
