@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import classes from '../css/Main.module.css'
 import Home from '../pages/Home'
 import Contact from '../pages/Contact'
+import Services from '../pages/Services'
 
 export default function Main() {
   return (
@@ -10,6 +11,7 @@ export default function Main() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/services" element={<Services />} />
       </Routes>
     </div>
   );
