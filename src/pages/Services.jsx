@@ -1,9 +1,12 @@
 import React from 'react'
 import classes from '../css/Services.module.css';
 import cont from '../css/Container.module.css';
-
+import Itemhome from '../pages/Itemhome';
+import { useSelector } from 'react-redux';
 
 function Services() {
+  const Items = useSelector((state) => state.Home.Items);
+
   return (
     <section className={classes.services}>
       <div className={classes.top}>
@@ -31,6 +34,26 @@ function Services() {
               combining stylish interface design, digital consultation and enterprise software
               integration.
             </p>
+          </div>
+        </div>
+      </div>
+
+      <div className={classes.technologies}>
+        <div className={`${cont.container} ${cont.column}`}>
+          <div>
+            <h2 className={classes.pretitle}>Enterprise Software Development</h2>
+            <p className={classes.pretitle_desc}>
+              Our goal is to help your business become a leader and enhance your company’s projects
+              with our services, skills, and support. Hiring us means a successful software launch
+              combining stylish interface design, digital consultation and enterprise software
+              integration.
+            </p>
+          </div>
+
+          <div className={classes.enterprise}>
+            {Items.map((item) => (
+              <Itemhome name={item.name} img={item.img} key={item.id} />
+            ))}
           </div>
         </div>
       </div>
