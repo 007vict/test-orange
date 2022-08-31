@@ -1,0 +1,148 @@
+/* Home */
+
+/* Section Hero,promo */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` */
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.promo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 530px;
+  padding-bottom: 10px;
+}
+
+.desc > h1 {
+  font-size: 60px;
+  max-width: 60%;
+  font-weight: 700;
+  line-height: 110%;
+  color: var(--black);
+}
+
+.desc > p {
+  max-width: 65%;
+  font-size: 19px;
+  margin-top: 36px;
+  color: var(--black);
+}
+
+.logo_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo_top > .top30 {
+  height: 43px;
+  width: 112px;
+}
+
+.logo_top > span {
+  margin-left: 20px;
+}
+
+.logo_top > span > strong {
+  color: var(--black);
+}
+
+.img_promo {
+  position: relative;
+  width: 50%;
+}
+
+.img_promo > img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+/* Section Technologies */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.technologies {
+  min-height: 660px;
+  background: #f1f5f7;
+  padding: 72px 0;
+}
+
+h2.pretitle,
+h3.pretitle {
+  position: relative;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+
+h2.pretitle::after,
+h3.pretitle::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 1px;
+  width: 50%;
+  height: 2px;
+  transition: 0.2s;
+  background: linear-gradient(45deg, #250d44, #0e5198, #8aa9d6);
+  border-radius: 1px;
+}
+
+.pretitle_desc {
+  position: relative;
+  font-size: 22px;
+  margin-bottom: 24px;
+  margin-left: 3px;
+}
+
+.enterprise {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* section Solutions */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` */
+
+.solutions {
+  padding: 72px 0;
+  max-width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #ffffff 96%, #f1f5f7 100%);
+}
+
+.h4_desc {
+  width: 100%;
+  border-bottom: 1px solid #e3ebed;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.h4_desc > h4 {
+  font-size: 21px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.h4_desc > p {
+  font-size: 18px;
+}
+
+.banking {
+  border-bottom: none;
+  padding-bottom: 12px;
+}
+
+.banking > h3 {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 28px;
+}
