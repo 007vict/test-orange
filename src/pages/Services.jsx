@@ -4,6 +4,7 @@ import cont from '../css/Container.module.css';
 import Itemhome from '../pages/Itemhome';
 import { useSelector } from 'react-redux';
 
+
 function Services() {
   const Items = useSelector((state) => state.Home.Items);
 
@@ -16,6 +17,7 @@ function Services() {
           </div>
         </div>
       </div>
+
       <div className={classes.software_info}>
         <div className={`${cont.container} ${cont.column}`}>
           <div className={classes.page_info}>
@@ -54,6 +56,23 @@ function Services() {
             {Items.map((item) => (
               <Itemhome name={item.name} img={item.img} key={item.id} />
             ))}
+          </div>
+        </div>
+      </div>
+
+      <div className={classes.do_it}>
+        <div className={classes.do_it_img_bg}>
+          <div className={`${cont.container} ${cont.column}`}>
+            <h6>
+              "They were great. We had a good connection and the team was easily available. They
+              were really hardworking. Tapston helped a lot by leading us through the development
+              process"
+            </h6>
+
+            <div className={classes.review_do_it}>
+              <div className={classes.billo}></div>
+              <h5>Founder, Billo</h5>
+            </div>
           </div>
         </div>
       </div>

@@ -94,3 +94,36 @@ h3.pretitle::after {
   gap: 12px;
 }
 
+.do_it {
+  height: 433px;
+  background: url(../../public/images/web-back2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.do_it_img_bg {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.75) 100%);
+  height: 100%;
+  padding: 72px 0;
+}
+
+.do_it h6 {
+  width: 73%;
+  font-size: 36px;
+  color: #fff;
+  line-height: 135%;
+  font-weight: 500;
+}
+.review_do_it {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.review_do_it .billo {
+  background-image: url(../../public/images/billo.png);
+  width: 64px;
+  height: 64px;
+  margin-right: 16px
+}
+
