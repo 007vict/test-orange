@@ -1,6 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-=======
 import classes from '../css/Header.module.css'
 import container from '../css/Container.module.css'
 import { Link } from 'react-router-dom';
@@ -27,7 +25,6 @@ function Header() {
             </nav>
           </div>
         </header>
->>>>>>> services
   );
 }
 

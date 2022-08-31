@@ -1,6 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
-=======
 import classes from '../css/Footer.module.css'
 import container from '../css/Container.module.css'
 
@@ -37,5 +35,4 @@ export default function Footer() {
       </div>
     </footer>
   );
->>>>>>> services
 }
