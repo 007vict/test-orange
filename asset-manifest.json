@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-orange/static/css/main.f5a66315.css",
-    "main.js": "/test-orange/static/js/main.fcc7d3c5.js",
+    "main.js": "/test-orange/static/js/main.dbce5f40.js",
     "static/js/787.311733e3.chunk.js": "/test-orange/static/js/787.311733e3.chunk.js",
     "static/media/software-back.jpg": "/test-orange/static/media/software-back.574a1777cc3c3877ca09.jpg",
     "static/media/web-back2.jpg": "/test-orange/static/media/web-back2.61b0e7bed8477a7145c6.jpg",
@@ -13,11 +13,11 @@
     "static/media/logotype.svg": "/test-orange/static/media/logotype.32effd112ee5626e8dd3.svg",
     "index.html": "/test-orange/index.html",
     "main.f5a66315.css.map": "/test-orange/static/css/main.f5a66315.css.map",
-    "main.fcc7d3c5.js.map": "/test-orange/static/js/main.fcc7d3c5.js.map",
+    "main.dbce5f40.js.map": "/test-orange/static/js/main.dbce5f40.js.map",
     "787.311733e3.chunk.js.map": "/test-orange/static/js/787.311733e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5a66315.css",
-    "static/js/main.fcc7d3c5.js"
+    "static/js/main.dbce5f40.js"
   ]
 }
