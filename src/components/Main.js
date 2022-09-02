@@ -9,9 +9,9 @@ export default function Main() {
   return (
     <div className={classes.main}>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/services" element={<Services />} />
+        <Route exact path="contact/" element={<Contact />} />
+        <Route exact path="services/" element={<Services />} />
+        <Route path="" element={<Home />} />
       </Routes>
     </div>
   );
